@@ -123,7 +123,7 @@ let printLicenseUsability = function(pkg) {
 			break;
 
 		default:
-			console.log(redText, ' In ' + pkg.name + ' --> Your ' + pkg.license +
+			console.log(yellowText, ' In ' + pkg.name + ' --> Your ' + pkg.license +
 						' License was not recognized, please contact the creator \n' +
 						' of this library if you think this message is wrong \n');
 	}

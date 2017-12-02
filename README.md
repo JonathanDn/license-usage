@@ -5,6 +5,8 @@ A project license usability scanner with user friendly reports
 
 To use the scanner all you need to do is clone this repository, take the licenseUsability.js file and put it within a shared folder in your root directory --> this is the desired spot for the scanner to work properly.
 
+If you would like to activate the script in an app.js file for example, require the module and recieve the main function, call it within your app.js file and now all you have to do is just run "node app.js" and the test will run.
+
 Within your scripts key in package.json you can write a custom script named "scanLicenses" for example and when run, execute the licenseUsability.js file to receive a colorful and user friendly report of your package.json, dependencies & devDependencies licenses status.
 
 In this report you will get a recommendation according to the licenses recognized by the software by the following rules:

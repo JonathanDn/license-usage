@@ -10,4 +10,6 @@ In this report you will get a recommendation according to the licenses recognize
 - red - Either you did not enter a license to your repository package.json or a dependency's license is not recommended to use as part of commercial efforts.
 - yellow - The system was not able to recognize the license --> this is your time to open an issue if there is a license you want me to classify and add to the scanner or any other issues you find with the software.
 
+* If you would just like to test the script, attached is a small package.json file example for that purpose.
+
 If you encounter any issues, have any feature suggestions feel free to open an issue, whenever I get the time I will improve this library :)

@@ -1,6 +1,8 @@
 # license-usage
 A project license usability scanner with user friendly reports
 
+<img src="https://media.giphy.com/media/3ohs7JGttrIkPgGuGc/giphy.gif">
+
 To use the scanner all you need to do is clone this repository, take the licenseUsability.js file and put it within a shared folder in your root directory --> this is the desired spot for the scanner to work properly.
 
 Within your scripts key in package.json you can write a custom script named "scanLicenses" for example and when run, execute the licenseUsability.js file to receive a colorful and user friendly report of your package.json, dependencies & devDependencies licenses status.

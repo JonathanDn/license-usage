@@ -114,8 +114,10 @@ let printLicenseUsability = function(pkg) {
 			console.log(yellowText, ' ' + pkg.name + ' --> Your using Proprietary License \n');
 			break;
 
-		case 'BSD-3-CLAUSE':
-			console.log(yellowText, ' '+ pkg.name + ' --> Your using BSD-3-CLAUSE License \n');
+		case 'BSD-3-Clause':
+			console.log(greenText, ' '+ pkg.name + ' --> You are using BSD-3-CLAUSE License, you can use it for \n ' +
+							' commercial use, modify and distribute it, need to give copyright \n' +
+							' credit and include the original license in source code \n');
 			break;
 
 		case 'Apache':

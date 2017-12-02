@@ -152,31 +152,3 @@ let handleSpaceBeforeText = function(pkgLicense) {
 	}
 	return pkgLicense;
 };
-
-
-// TODOS:
-// TODO - need to classify 'BSD-3-CLAUSE'
-// TODO - need to make a Pattern Finding Regex that will identify LICENSE SPECIFIC CASES, like MIT / APACHE within a string and then send a friendly notice
-// ------ currently does not handle these uses cases --> 'Apache-2.0' or 'BSD-3-CLAUSE'
-// TODO - add colors to license --> green / red / yellow like traffic light
-// TODO -  search what license in each dependencies & devDependencies - and give friendly message
-// TODO - open issue - not handling multiple spaces before first character (more then one and the default message will be shown)
-
-// DONE:
-// DONE - Classified Apache-2.0 message
-// DONE - differentiating between NOT having a license in your project's Package.json && not having a license property in a Dependency. - 1.12.17
-// DONE - solved bug with error not printing when license === undefined, now print red - 1.12.17
-// DONE - handleSpaceBeforeText --> put regex with replace() that will deal with any amount of spaces before the first character. - 1.12.17
-// DONE - improved specificness of for in loop to check each dependency in package object - 1.12.17
-// DONE - small string refactor to improve maintainability - 1.12.17
-// DONE - refactored functions to be more generic - 1.12.17
-// DONE - added friendly title for each dependencies list - ux - 1.12.17
-// DONE - map the devDependencies first then pass it to validate dependencies licenses function
-// DONE - make mapDependenciesLicenses function more generic, to accept any key of dependencies / array to map - 1.12.17
-// DONE - improve visuals of console messages, more user friendly - 1.12.17
-// DONE - Run Each Dependency License in the LicenseValidator Function - - 1.12.17
-// DONE - validate all the other licenses that are now mapped in dependencies variable - 30.11.17
-// DONE - refactor to functions, handlers, printers - 30.11.17
-// DONE - map license in each dependencies - 30.11.17
-// Done - compare the first part BEFORE space to the array, if find a match delete whatever is after the space. - 30.11.17
-// DONE - Add support to see pkg name for each pkg as part of message, even in pkg.json original - 30.11.17

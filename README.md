@@ -1,7 +1,7 @@
 # license-usage
 A project license usability scanner with user friendly reports
 
-<img src="https://media.giphy.com/media/3ohs7JGttrIkPgGuGc/giphy.gif">
+<img src="https://media.giphy.com/media/3ohs7JGttrIkPgGuGc/giphy.gif" width="500px" height="500px">
 
 To use the scanner all you need to do is clone this repository, take the licenseUsability.js file and put it within a shared folder in your root directory --> this is the desired spot for the scanner to work properly.
 

@@ -15,3 +15,6 @@ In this report you will get a recommendation according to the licenses recognize
 * If you would just like to test the script, attached is a small package.json file example for that purpose.
 
 If you encounter any issues, have any feature suggestions feel free to open an issue, whenever I get the time I will improve this library :)
+
+
+ Disclaimer: Information represented by this package scanner is gathered from general sources. No information on licenseUsage is considered as legal advice.

@@ -10,7 +10,7 @@ Usage:
 
 3. You can easily run "node testLicense" || "npm testLicense" || "yarn testLicense" according to your package manager.
 
-In this report you will get a recommendation according to the licenses recognized by the software by the following rules:
+Conventions:
 - green - This is a license you can use for a commercial software.
 - red - Either you did not enter a license to your repository package.json or a dependency's license is not recommended to use as part of commercial efforts.
 - yellow: The system was not able to recognize the license --> this is your time to open an issue if there is a license you want me to classify and add to the scanner or any other issues you find with the software.

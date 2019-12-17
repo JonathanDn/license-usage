@@ -2,7 +2,7 @@
 A project license usability scanner with user friendly reports
 
 # Demo 
-<img src="https://gph.is/g/aKNq2P6" width="500px" height="500px">
+<img src="https://github.com/JonathanDn/license-usage/blob/master/compare.gif" width="500px" height="500px">
 
 # Output
 ![license usage scan a few files](https://github.com/JonathanDn/license-usage/blob/master/compare.png "license usage scan a few files")

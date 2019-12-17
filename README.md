@@ -1,7 +1,11 @@
 # license-usage
 A project license usability scanner with user friendly reports
 
-<img src="https://media.giphy.com/media/3ohs7JGttrIkPgGuGc/giphy.gif" width="500px" height="500px">
+# Demo 
+<img src="https://gph.is/g/aKNq2P6" width="500px" height="500px">
+
+# Output
+![license usage scan a few files](https://github.com/JonathanDn/license-usage/blob/master/compare.png "license usage scan a few files")
 
 ## Usage:
 1. Copy the licenseUsability.js file to project, within your root place it inside a folder(prefferably Shared or Public).

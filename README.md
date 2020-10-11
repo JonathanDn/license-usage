@@ -27,3 +27,8 @@ If you encounter any issues, have any feature suggestions feel free to open an i
 Disclaimer: Information represented by this package scanner is gathered from general sources. No information on licenseUsage is considered as legal advice.
 ---
 👨‍💻 Follow me on [Twitter](https://twitter.com/jodoron).
+
+### Donation
+If this project helped you reduce development time, you can buy me a cup of coffee :)
+
+* Paypal - yonidn7@gmail.com
